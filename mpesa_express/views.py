@@ -33,8 +33,8 @@ def generate_access_token():
     """
     Generate M-Pesa access token using consumer key and secret.
     """
-    CONSUMER_KEY = "pCtOCqrzmENqLUnU5HaB9sjVeofWX02jdGM5zetJQR2OqcK3"
-    CONSUMER_SECRET = "2J88b9zIVx1Gnw1svoIIil72t60WuQNJiHDGi7l9SGfjZiInA8KOHTsGJhGpiGmb"
+    CONSUMER_KEY = ""
+    CONSUMER_SECRET = ""
 
     credentials = f"{CONSUMER_KEY}:{CONSUMER_SECRET}"
     encoded_credentials = base64.b64encode(credentials.encode()).decode()
